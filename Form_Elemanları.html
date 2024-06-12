@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>HTML Forms</h1>
+    <form>
+        <fieldset>
+            <div>
+                <label for="name">İsim: </label>
+                <input type="text id=name">
+                <label for="soyisim">Soyad: </label>
+                <input type="text id=soyisim">
+            </div>
+            <br>
+
+
+            <div>
+                <label for="email">Mail Adresi:</label>
+                <input type="email" id="email">
+                <label for="password"> Şifre:</label>
+                <input type="password" id="password">
+                
+            </div>
+            <br>
+
+            <div>
+                <label for="gender">Cinsiyet:</label>
+                <input type="radio" name="gender" value="male"> Erkek
+                <input type="radio" name="gender" value="female"> Kadın
+            </div>
+            <br>
+            <div>
+                <label for="Fruits">Favori Meyve</label>
+                <select id="Favori Meyve">
+                <option value="Seçiniz">Seçiniz</option>
+                <optgroup>
+                    <option value="muz">Muz</option>
+                    <option value="elma">Elma</option>
+                    <option value="kivi">Kivi</option>
+                    <option value="erik">Erik</option>
+                </optgroup>
+                </select>
+
+            </div>
+            <br>
+
+           <div>
+            <label for="text">Mesajınız:</label>
+            <textarea  id="text" rows="5" cols="50"></textarea>
+           </div> 
+           <br>
+           <input type="submit" value="Gönder">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
